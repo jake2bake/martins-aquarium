@@ -1,0 +1,59 @@
+h1 {
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.fish {
+    flex-basis: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    /* flex-direction: row; */
+    border: solid pink 10px;
+    margin: 1px 1px;
+    /* flex-grow: 100%; */
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+/* .tips {
+    flex-basis: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    flex-direction: column-reverse;
+    border: solid purple 10px;
+    margin: 1px 1px;
+    flex-grow: 20%;
+    
+} */
+
+.locations {
+    flex-basis: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 400%;  */
+    /* flex-direction: row; */
+    border: solid green 10px;
+    margin: 1px 1px;
+    /* flex-grow: 20%;  */
+    align-items: center;
+    
+    
+}
+
+.tips {
+    /* flex-basis: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding-bottom: 20px;
+    border: solid purple 10px;
+    margin: 1px 10px;
+    /* flex-grow: 20%; */
+    
+}
